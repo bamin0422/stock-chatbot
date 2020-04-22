@@ -41,7 +41,7 @@ Bamin-Stock은 현재 관심 가지고 있는 종목, 장 공시와 특징주 �
 
 프로필 화면은 하단의 사진과 같다.  더 알아보기를 클릭하면, 깃허브로 이동한다.
 
-![](/home/bamin/Projects/stock-chatbot/image/profile.png)
+![](/image/profile.png)
 
 
 
@@ -49,7 +49,7 @@ Bamin-Stock은 현재 관심 가지고 있는 종목, 장 공시와 특징주 �
 
 ### 하단 메뉴 구현 명세
 
-![](/home/bamin/Projects/stock-chatbot/image/wellcomemessage.png)
+![](/image/wellcomemessage.png)
 
  하단 메뉴의 구성 요소는 **주식검색, 주요공시, 특징주, 관심종목1, 관심종목2, 관심종목3** 으로 구성되어 있다.
 
