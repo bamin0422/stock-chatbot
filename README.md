@@ -1,7 +1,5 @@
 # Bamin-Stock
 
-![](https://images.unsplash.com/photo-1559589689-577aabd1db4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
-
 To. **주린이들에게...**
 
 안녕하세요! 주린이 여러분 :)
@@ -46,8 +44,6 @@ Bamin-Stock은 현재 관심 가지고 있는 종목, 장 공시와 특징주 �
 
 
 ![](/image/profile.png)
-
-
 
 
 
