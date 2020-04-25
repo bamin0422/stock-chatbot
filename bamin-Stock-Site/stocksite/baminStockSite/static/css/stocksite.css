@@ -1,0 +1,88 @@
+.home,
+.home h3 a,
+.home h3 a:visited {
+  margin-top: 0;
+  padding: 3px 3px 10px 10px;
+  color: #819ff7;
+}
+
+.h-container:after {
+  clear: both;
+  display: block;
+  font-family: 'Nanum Myeongjo', serif;
+  content: '';
+}
+.h-container .item,
+h-container a {
+  float: left;
+  width: 100px;
+  text-align: center;
+  border-right: 1px solid #ddd;
+  font-family: 'Nanum Myeongjo', serif;
+}
+.h-container .item.last {
+  float: right;
+  border-right: none;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.page-header {
+  background-image: url('specialStock1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  padding: 20px 20px 20px 40px;
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+  color: #ffffff;
+  font-size: 36pt;
+  text-decoration: none;
+}
+
+.content {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.date {
+  color: #828282;
+}
+
+.save {
+  float: right;
+}
+
+.post-form textarea,
+.post-form input {
+  width: 100%;
+}
+
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+  color: #ffffff;
+  float: right;
+  font-size: 26pt;
+  margin-right: 20px;
+}
+
+.postList p {
+  text-align: left;
+}
+
+.postList h1 a,
+.postList h1 a:visited {
+  text-align: center;
+  color: #819ff7;
+}
