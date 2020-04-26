@@ -23,25 +23,40 @@
     </div>
     <div class="h-container">
       <hr />
-      <div class="item"><a style="color: #819ff7;">주요공시</a></div>
-      <div class="item"><a style="color: #819ff7;">특징주</a></div>
-      <div class="item"><a style="color: #819ff7;">주식검색</a></div>
+      <div class="item">
+        <a href="{% url 'stockNews_list_detail' %}" style="color: #819ff7;"
+          >주요공시</a
+        >
+      </div>
+      <div class="item">
+        <a href="{% url 'specialStock_list_detail' %}" style="color: #819ff7;"
+          >특징주</a
+        >
+      </div>
+      <div class="item">
+        <a href="{% url 'stockCommunity_list_detail' %}" style="color: #819ff7;"
+          >토론방</a
+        >
+      </div>
       <div class="item last"><a style="color: #819ff7;">login</a></div>
     </div>
-    <div class="page-header">
+    <hr />
+    <div class="page-header2" style="text-align: center;">
       <h1><a href="">주요공시</a></h1>
     </div>
     <div class="content container">
       <div class="row">
         <div class="col-md-8">
-          {% for stockN in stockNews %}
+          {% for stockn in stockNews %}
           <div class="postList">
-            <h1><a href="">{{ stockN.title }}</a></h1>
+            <h1><a href="">{{ stockn.title }}</a></h1>
             <div class="date">
-              <p style="text-align: right;">{{ stockN.published_date }}</p>
+              <p style="text-align: right;">
+                {{ stockn.published_date }}
+              </p>
             </div>
             <br />
-            <p>{{ stockN.text|linebreaksbr }}</p>
+            <p>{{ stockn.text|linebreaksbr }}</p>
             <hr />
           </div>
           {% endfor %}

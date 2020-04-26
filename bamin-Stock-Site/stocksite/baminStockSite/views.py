@@ -12,7 +12,7 @@ def specialStock_list(request):
 def specialStock_list_detail(request):
     specialStocks = SpecialStock.objects.filter(
         published_date__lte=timezone.now()).order_by('published_date')
-    return render(request, 'stockSite/specialStock_list_detail.html', {'specialStocks': specialStocks})
+    return render(request, 'stockSite/speicalStock_list_detail.html', {'specialStocks': specialStocks})
 
 
 def stockNews_list(request):
