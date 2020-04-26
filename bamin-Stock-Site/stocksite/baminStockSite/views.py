@@ -46,6 +46,6 @@ def home(request):
         published_date__lte=timezone.now()).order_by('published_date')
     specialStocks = SpecialStock.objects.filter(
         published_date__lte=timezone.now()).order_by('published_date')
-    data = {'stockCommunity': stockCommunity,
-            'stockNews': stockNews, 'specialStocks': specialStocks}
+    data = {'주요공시': stockNews, '특징주': specialStocks, '토론실': stockCommunity
+            }
     return render(request, 'stockSite/home.html', {'data': data})
