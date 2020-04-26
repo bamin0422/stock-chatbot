@@ -25,6 +25,18 @@ h-container a {
   border-right: none;
   font-family: 'Nanum Myeongjo', serif;
 }
+.community {
+  background-image: url('specialStock1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  padding: 20px 20px 20px 40px;
+}
+.community h1 {
+  color: #ffffff;
+  font-size: 36pt;
+  text-align: center;
+}
 
 .page-header {
   background-image: url('specialStock1.jpg');
