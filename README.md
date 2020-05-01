@@ -2,7 +2,7 @@
 
  
 
-| ![](/home/bamin/Projects/stock-chatbot/image/Bamin-Stock02.png) |
+| ![](/image/Bamin-Stock02.png) |
 | :----------------------------------------------------------: |
 
 > To. **주린이들에게...**
@@ -20,7 +20,7 @@
 > 아직 부족하지만 차근차근 공부하면서, chatbot을 구현해보자구요.
 > 																			
 >
-> ​																											      		From.  **Bamin**
+> ​																											      		                                        From.  **Bamin**
 
 
 
@@ -57,7 +57,7 @@ Bamin-Stock은 현재 관심 가지고 있는 종목, 주요 공시와 특징주
 
 프로필 화면은 하단의 사진과 같다.  더 알아보기를 클릭하면, 깃허브로 이동한다.
 
-| ![](/home/bamin/Projects/stock-chatbot/image/Bamin-Stock02.png) |
+| ![](/image/Bamin-Stock02.png) |
 | ------------------------------------------------------------ |
 
 
@@ -68,6 +68,6 @@ Bamin-Stock은 현재 관심 가지고 있는 종목, 주요 공시와 특징주
 
  하단 메뉴의 구성 요소는 **주식검색, 주요공시, 특징주, 관심종목1, 관심종목2, 관심종목3** 으로 구성되어 있다.
 
-| ![](/home/bamin/Projects/stock-chatbot/image/Bamin-Stock03.png) |
+| ![](/image/Bamin-Stock03.png) |
 | ------------------------------------------------------------ |
 
