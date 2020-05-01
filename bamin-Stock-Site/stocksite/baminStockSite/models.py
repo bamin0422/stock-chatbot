@@ -30,15 +30,8 @@ class StockCommunity(Post):
         self.published_date = timezone.now()
         self.save()
 
-    def __str__(self):
-        return self.title
-
-
-class StockCommunity(Post):
-
-    def publish(self):
-        self.published_date = timezone.now()
-        self.save()
+    def getName(self):
+        return "토론실"
 
     def __str__(self):
         return self.title
@@ -50,6 +43,9 @@ class StockNews(Post):
         self.published_date = timezone.now()
         self.save()
 
+    def getName(self):
+        return "주요공시"
+
     def __str__(self):
         return self.title
 
@@ -59,6 +55,9 @@ class SpecialStock(Post):
     def publish(self):
         self.published_date = timezone.now()
         self.save()
+
+    def getName(self):
+        return "특징주"
 
     def __str__(self):
         return self.title

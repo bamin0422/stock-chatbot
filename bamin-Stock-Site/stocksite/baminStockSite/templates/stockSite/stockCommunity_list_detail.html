@@ -1,7 +1,7 @@
 {% load static %}
 <html>
   <head>
-    <title>주요공시</title>
+    <title>토론방</title>
     <link
       rel="stylesheet"
       href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
@@ -38,27 +38,38 @@
           >토론방</a
         >
       </div>
+      <div class="item last"><a style="color: #819ff7;">login</a></div>
     </div>
     <hr />
-    <div class="page-header">
+    <div class="page-header1" style="text-align: center;">
       <h1>토론방</h1>
     </div>
     <div class="content container">
       <div class="row">
         <div class="col-md-8">
-          {% for stockN in stockNews %}
+          {% for stockC in stockCommunity %}
           <div class="postList">
-            <h1><a href="">{{ stockN.title }}</a></h1>
+            <h1><a href="">{{ stockC.title }}</a></h1>
             <div class="date">
-              <p style="text-align: right;">{{ stockN.published_date }}</p>
+              <p style="text-align: right;">{{ stockC.published_date }}</p>
             </div>
             <br />
-            <p>{{ stockN.text|linebreaksbr }}</p>
+            <p>{{ stockC.text|linebreaksbr }}</p>
             <hr />
           </div>
+
           {% endfor %}
         </div>
       </div>
     </div>
   </body>
+  <footer>
+    <hr />
+    <p>&copy; copyright by bamin0422</p>
+    <p>
+      · contact github :
+      <a href="https://github.com/bamin0422">https://github.com/bamin0422</a>
+    </p>
+    <p>· contact email : bamin0422@gmail.com</p>
+  </footer>
 </html>

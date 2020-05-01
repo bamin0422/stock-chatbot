@@ -42,10 +42,34 @@
       <div class="item last"><a style="color: #819ff7;">login</a></div>
     </div>
     <hr />
-    <div class="content container">
-      <div class="row">
-        {% for datas in data %} {% block content %} {% endblock %} {% endfor %}
+    <div class="contents-wrapper">
+      <br /><br /><br /><br />
+      {% for datas in data %}
+      <div class="contents">
+        <h2 style="text-align: center;">
+          {{ datas.title }}
+        </h2>
+        <hr />
+        {% for d in datas %}
+        <h3 style="text-align: center;">
+          <a style="text-align: left;" href="">{{ d.title }}</a>
+        </h3>
+        <p style="text-align: right;">
+          {{ d.published_date }}
+        </p>
+        <hr />
+        {% endfor %}
       </div>
+      {% endfor %}
     </div>
   </body>
+  <footer>
+    <hr />
+    <p>&copy; copyright by bamin0422</p>
+    <p>
+      · contact github :
+      <a href="https://github.com/bamin0422">https://github.com/bamin0422</a>
+    </p>
+    <p>· contact email : bamin0422@gmail.com</p>
+  </footer>
 </html>

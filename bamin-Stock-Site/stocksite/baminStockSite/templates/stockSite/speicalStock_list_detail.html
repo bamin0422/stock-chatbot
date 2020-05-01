@@ -1,0 +1,77 @@
+{% load static %}
+<html>
+  <head>
+    <title>특징주</title>
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"
+    />
+    <link rel="stylesheet" href="{% static 'css/stocksite.css' %}" />
+    <link
+      href="//fonts.googleapis.com/earlyaccess/nanummyeongjo.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div class="home">
+      <h3 style="text-align: left;"><a href="/">Bamin-Stock</a></h3>
+    </div>
+
+    <div class="h-container">
+      <hr />
+      <div class="item">
+        <a href="{% url 'stockNews_list_detail' %}" style="color: #819ff7;"
+          >주요공시</a
+        >
+      </div>
+      <div class="item">
+        <a href="{% url 'specialStock_list_detail' %}" style="color: #819ff7;"
+          >특징주</a
+        >
+      </div>
+      <div class="item">
+        <a href="{% url 'stockCommunity_list_detail' %}" style="color: #819ff7;"
+          >토론방</a
+        >
+      </div>
+      <div class="item last"><a style="color: #819ff7;">login</a></div>
+    </div>
+    <hr />
+    <div class="page-header">
+      <h1 style="text-align: center;">특징주</h1>
+    </div>
+    <div class="content container">
+      <div class="row">
+        <div class="col-md-8">
+          {% for specialStock in specialStocks %}
+          <div class="postList">
+            <h1><a href="">{{ specialStock.title }}</a></h1>
+            <div class="date">
+              <p style="text-align: right;">
+                {{ specialStock.published_date }}
+              </p>
+            </div>
+            <br />
+            <p>{{ specialStock.text|linebreaksbr }}</p>
+            <hr />
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <hr />
+    <p>&copy; copyright by bamin0422</p>
+    <p>
+      · contact github :
+      <a href="https://github.com/bamin0422">https://github.com/bamin0422</a>
+    </p>
+    <p>· contact email : bamin0422@gmail.com</p>
+  </footer>
+</html>
