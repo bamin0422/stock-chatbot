@@ -2,8 +2,8 @@
 
  
 
-| ![](/image/Bamin-Stock02.png) |
-| :----------------------------------------------------------: |
+![](/image/baminstock.jpg)
+
 
 > To. **주린이들에게...**
 >
@@ -24,7 +24,7 @@
 
 
 
-[![thumbnail](/home/bamin/Projects/stock-chatbot/image/plusfriend.png)](http://pf.kakao.com/_xircaxb)
+[![thumbnail](/image/plusfriend.png)](http://pf.kakao.com/_xircaxb)
 
 
 
